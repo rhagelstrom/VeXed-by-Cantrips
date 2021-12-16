@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root release="3.0" version="3">
+	<announcement text="VeXed by Cantrips vDev.2\rby Ryan Hagelstrom 2021" font="emotefont"/>
+	<properties>
+    	<loadorder>120</loadorder>
+		<name>Feature: VeXed by Cantrips</name>
+		<version>Dev.2</version>
+		<author>Ryan Hagelstrom</author>
+		<description>Fixes spell levels for NPC cantrips</description>
+		<ruleset>
+            <name>5E</name>
+		</ruleset>
+	</properties>
+	<base>
+    		<script name="ActionManagerRM" file="scripts/manager_action_vexed.lua" />
+  	</base>
+</root>
